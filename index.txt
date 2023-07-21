@@ -1,0 +1,48 @@
+
+
+1. **Question:** What is Java?
+   **Answer:** Java is a high-level, object-oriented programming language developed by Sun Microsystems (now owned by Oracle). It is platform-independent and designed to run on any platform with the Java Virtual Machine (JVM).
+
+2. **Question:** How do you declare a variable in Java?
+   **Answer:** In Java, you declare a variable by specifying its data type, followed by the variable name and optionally assigning an initial value. For example:
+   ```java
+   int age; // Declaration
+   int count = 0; // Declaration with initialization
+   ```
+
+3. **Question:** What is the difference between an object and a class in Java?
+   **Answer:** A class is a blueprint or a template that defines the structure and behavior of objects, whereas an object is an instance of a class. In simple terms, a class acts as a blueprint, and an object is the actual representation of that blueprint.
+
+4. **Question:** Explain the main method in Java.
+   **Answer:** The main method in Java is the entry point of any Java program. It is declared as follows:
+   ```java
+   public static void main(String[] args) {
+       // Program execution starts here
+   }
+   ```
+   When you run a Java program, the JVM starts executing the program from the main method.
+
+5. **Question:** What is the difference between "==" and ".equals()" when comparing strings in Java?
+   **Answer:** In Java, "==" compares the memory references of two objects, while ".equals()" compares the actual contents of the strings. For string comparison, it is recommended to use ".equals()" to ensure accurate results.
+
+6. **Question:** What is the use of the "static" keyword in Java?
+   **Answer:** In Java, the "static" keyword is used to define class-level variables and methods that belong to the class rather than to instances (objects) of the class. Static members are shared across all instances of the class.
+
+7. **Question:** How do you handle exceptions in Java?
+   **Answer:** Java provides a try-catch block to handle exceptions. Code that might raise an exception is placed inside the try block, and if an exception occurs, it is caught and handled in the catch block. For example:
+   ```java
+   try {
+       // Code that might raise an exception
+   } catch (ExceptionType e) {
+       // Exception handling code
+   }
+   ```
+
+8. **Question:** What is the difference between an interface and an abstract class in Java?
+   **Answer:** In Java, an interface is a collection of abstract methods, and all methods declared in an interface are implicitly public and abstract. On the other hand, an abstract class is a class that can have both abstract and concrete methods. A class can implement multiple interfaces, but it can only extend a single abstract class.
+
+9. **Question:** How does Java support multithreading?
+   **Answer:** Java supports multithreading through the use of the Thread class and the Runnable interface. You can create and start threads in Java to execute tasks concurrently, which allows for efficient utilization of CPU resources.
+
+10. **Question:** What is the purpose of the "finalize()" method in Java?
+    **Answer:** The "finalize()" method is a method defined in the Object class, and it is called by the garbage collector before reclaiming an object's memory. However, it is generally recommended not to rely on "finalize()" for cleanup tasks, as it has some drawbacks and is not guaranteed to be called promptly or at all.
